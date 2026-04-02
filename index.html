@@ -81,7 +81,7 @@ AFRAME.registerComponent('water-wave', {
       <a-assets timeout="30000">
         <!-- Models -->
         <a-asset-item id="Villa" src="./models/villa_by_the_sea.glb" response-type="arraybuffer"></a-asset-item>
-        
+        <a-asset-item id="dog" src="./models/bull_terrier.glb"></a-asset-item>
         <a-asset-item id="carModel" src="./models/honda_s800__www.vecarz.com.glb" response-type="arraybuffer"></a-asset-item>
         <a-asset-item id="gate" src="./models/the_mansion_gate.glb" response-type="arraybuffer"></a-asset-item>
         <a-asset-item id="garden" src="./models/garden_cement_fence_wall_building.glb" response-type="arraybuffer"></a-asset-item>
@@ -116,9 +116,9 @@ AFRAME.registerComponent('water-wave', {
         <a-entity gltf-model="#garden" position="43.5 0 15" scale="1.5 2 2" rotation="0 180 0" model-error></a-entity>
         
         <!-- Left Side Fence Walls -->
-        <a-entity gltf-model="#garden" position="-30.3 0 13.3" scale="2 2 2" rotation="0 90 0" model-error></a-entity>
-        <a-entity gltf-model="#garden" position="-30.3 0 -2.5" scale="2 2 2" rotation="0 90 0" model-error></a-entity>
-        <a-entity gltf-model="#garden" position="-30.3 0 -10" scale="2 2 2" rotation="0 90 0" model-error></a-entity>
+        <a-entity gltf-model="#garden" position="-56.8 0 13.3" scale="2 2 2" rotation="0 90 0" model-error></a-entity>
+        <a-entity gltf-model="#garden" position="-56.8 0 -2.5" scale="2 2 2" rotation="0 90 0" model-error></a-entity>
+        <a-entity gltf-model="#garden" position="-56.8 0 -10" scale="2 2 2" rotation="0 90 0" model-error></a-entity>
         
         <!-- Right Side Fence Walls -->
         <a-entity gltf-model="#garden" position="44.6 0 0" scale="2 2 2" rotation="0 -90 0" model-error></a-entity>
@@ -131,6 +131,8 @@ AFRAME.registerComponent('water-wave', {
         <a-entity gltf-model="#garden" position="-13 0 -24.5" scale="2 2 2" rotation="0 0 0" model-error></a-entity>
         <a-entity gltf-model="#garden" position="16 0 -24.5" scale="2 2 2" rotation="0 0 0" model-error></a-entity>
         <a-entity gltf-model="#garden" position="30 0 -24.5" scale="2 2 2" rotation="0 0 0" model-error></a-entity>
+        <a-entity gltf-model="#garden" position="-40 0 -24.5" scale="2 2 2" rotation="0 0 0" model-error></a-entity>
+           <a-entity gltf-model="#garden" position="-55 0 -24.5" scale="2 2 2" rotation="0 0 0" model-error></a-entity>
       </a-entity>
       
       
@@ -155,6 +157,13 @@ AFRAME.registerComponent('water-wave', {
           model-error>
 </a-entity>
         
+
+  <a-entity gltf-model="#dog" 
+          position="-6.0 0 10.8" 
+          scale="1.5 1.5 1.5" 
+          rotation="0 90 0"
+          model-error>
+</a-entity>
        
   
         <!-- Main Building (Primitive Shapes) -->
